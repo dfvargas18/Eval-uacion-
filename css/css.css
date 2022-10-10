@@ -1,0 +1,198 @@
+header{
+    width:100%;
+    height: 200%;
+    background-color:rgb(255, 255, 255);
+    padding: 1rem 0rem;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.logo{
+    width:30%;
+    justify-content:left;
+    padding:1rem 10rem;
+}
+
+.barra,Products,Uses,Partners,About,Idiomas{
+    width: 100%;
+    font-size:20px ;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+.Products{
+    display: flex;
+    color: aqua;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-style: none;
+}
+
+.Uses{
+    display: flex;
+    color: aqua;
+    justify-content: center;
+
+}
+
+.Partners{
+    border:none ;
+    display:flex;
+    color: aqua;
+    justify-content: center;
+}
+
+.About{
+    display: flex;
+    color: aqua;
+    justify-content: center;
+}
+
+.Idiomas{
+    display: flex;
+    color: aqua;
+    justify-content: center;
+}
+
+
+.login{
+    text-decoration: none;
+    display: block;
+    background-color: var(--color1);
+    color:rgb(34, 92, 142);
+    width: 20rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    margin-top: 2rem;
+
+    font-size: 1.8rem;
+
+   
+    align-items: right;
+    justify-content: right;
+}
+
+.Primeraparte{
+    width:100%;
+    height: 60rem;
+    background-color: rgb(204, 204, 204);
+    color:aliceblue
+}
+
+.Primeraparte span{
+    padding:1rem 2rem;
+    font-size:20px;
+}
+
+.Primeraparte h1{
+    padding: 1rem 2rem;
+    font-size: 70px;
+}
+
+.Primeraparte p{
+    padding: 1rem 2rem;
+    font-size: 20px;
+}
+
+.zapatos{
+   width:33%;
+   margin-right: 2rem;
+   float:right;
+   display:flex;
+}
+
+.barrita{
+    display: flex;
+    float:left;
+    margin-left: 2rem;
+}
+
+.barrita1{
+    display: flex;
+    margin-top:80px;
+    margin-left: 2rem;
+    opacity: 0.4;
+}
+
+.marcas{
+    width: 100%;
+    height: 40rem;
+    background-color: aquamarine;
+}
+
+.marcas h2{
+    text-align: center;
+    font-size:30px;
+}
+
+.marcas p{
+    text-align: center;
+    font-size: 15px;
+    color:darkgray
+}
+
+.imgmarcas{
+    display: flex;
+    margin-top:20px;
+    float: center;
+    margin-left: 18rem; 
+}
+
+.Trendy{
+    width:100%;
+    height:60rem;
+}
+
+.Trendy span{
+    text-align: right;
+    font-size: 20px;
+    color:darkgray;
+}
+
+.Trendy h2{
+    text-align: right;
+    font-size: 30px;
+}
+
+.Trendy p{
+    text-align: right;
+    font-size: 10px;
+    justify-content: right;
+}
+
+.chica{
+   margin-top: 5rem;
+   width:25%;
+   height:40rem
+}
+
+.Lear{
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    width: 13rem;
+    color:aliceblue;
+    border-radius:1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+
+    float: right;
+    display:flex;
+    align-items: right;
+    justify-content:right;
+}
+
+
+
+.producto{
+    width: 100%;
+    height: 40rem;
+    background-color: cadetblue;
+}
